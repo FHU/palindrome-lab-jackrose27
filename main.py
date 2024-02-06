@@ -1,7 +1,10 @@
-#REMOVE PASS AND FIX THIS FUNCTION
+
 def palindrome(word):
-    pass
+       return word == word[::-1]
+ 
+
+    
 
 if __name__ == '__main__': 
-    #REMOVE PASS AND YOUR CODE GOES HERE
-    pass
+    user_input = input()
+    palindrome(user_input)
