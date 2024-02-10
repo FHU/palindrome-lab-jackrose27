@@ -7,4 +7,4 @@ def palindrome(word):
 
 if __name__ == '__main__': 
     user_input = input()
-    palindrome(user_input)
+    print(palindrome(user_input))
